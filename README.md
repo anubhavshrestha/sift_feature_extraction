@@ -12,6 +12,10 @@ One of the main feature extraction technique we used in this project was Scale-I
 The classically trained Convolutional Neural network got an accuracy of around 74% for the test set, while our SIFT-feature + CNN model got a comparable accuracy of around for the test set. This shows that our network might be able to perform as well as traditional CNN networks with a lesser training time after the SIFT features have been extracted.
 
 ## Future Work
-One of the things that we are looking to improve on this project is tuning different parameters of the SIFT algorithm to optimize the feature extraction for various images and tasks. This involves using different parameters of scaling as well as keypoints for the network. \n
-Another improvement of this task would be to combine SIFT features with traditional feature extraction techniques like Speed Up Robust Features(SURF) to enhance overall representation of the images before feeding them into CNN.
-Finally, we can use various pre-trained models like ImageNet and VGGNet to apply transfer learning to our model. Then, we can fine-tune these models on SIFT-extracted images to utilize both generic features captured from the dataset as well as specific features captured by our SIFT algorithm.
+
+   1.  One of the things that we are looking to improve on this project is tuning different parameters of the SIFT algorithm to optimize the feature extraction for various images and tasks. This involves using different parameters of scaling as well as keypoints for the network.
+   2. Another improvement of this task would be to combine SIFT features with traditional feature extraction techniques like Speed Up Robust Features(SURF) to enhance overall representation of the images before feeding them into CNN.
+   3. Finally, we can use various pre-trained models like ImageNet and VGGNet to apply transfer learning to our model. Then, we can fine-tune these models on SIFT-extracted images to utilize both generic features captured from the dataset as well as specific features captured by our SIFT algorithm.
+
+      
+ 
