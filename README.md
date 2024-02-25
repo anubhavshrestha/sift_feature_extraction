@@ -9,7 +9,7 @@ The goal of this project was to experiment with various feature imitating networ
 One of the main feature extraction technique we used in this project was Scale-Invariant Feature Transform (SIFT) that detects and describes local features in the image. For this, we tried various sample images and extracted their SIFT features using OpenCV's library. After that, we trained a classical Convolutional Network for 10 epochs for CIFAR-10 dataset. Then, we extracted the sift features from the images and then passed the feature-extracted images into the same network for same number of epochs and the same parameter.
 
 ## Experiment Results
-The classically trained Convolutional Neural network got an accuracy of around 74% for the test set, while our SIFT-feature + CNN model got a comparable accuracy of around for the test set. This shows that our network might be able to perform as well as traditional CNN networks with a lesser training time after the SIFT features have been extracted.
+The classically trained Convolutional Neural network got an accuracy of around 74% for the test set, while our SIFT-feature + CNN model got a comparable accuracy of around 66% for the test set. This shows that our network might be able to perform as well as traditional CNN networks with a lesser training time after the SIFT features have been extracted.
 
 ## Future Work
 
